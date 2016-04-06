@@ -949,7 +949,7 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background: url(../images/technology/tech_bg.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -2525,6 +2525,9 @@ shortcodes page css
   margin-left: 15px;
 }
 
+.text-justify {
+  text-align: justify;
+}
 
 
 
