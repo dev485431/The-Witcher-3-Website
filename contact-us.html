@@ -42,7 +42,8 @@
             <div class="row">
                 <div class="col-sm-5 text-center">
                     <div class="gmap">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.130929812966!2d22.547181966125873!3d51.23508352959133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722577729316bd9%3A0x442236391b743bc!2sPolitechnika+Lubelska%2C+20-618+Lublin!5e0!3m2!1sen!2spl!4v1459951181505"></iframe>
+                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.130929812966!2d22.547181966125873!3d51.23508352959133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722577729316bd9%3A0x442236391b743bc!2sPolitechnika+Lubelska%2C+20-618+Lublin!5e0!3m2!1sen!2spl!4v1459951181505"></iframe>
 
                     </div>
                 </div>
@@ -83,33 +84,33 @@
         </div>
         <div class="row contact-wrap">
             <div class="status alert alert-success" style="display: none"></div>
-            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="#">
                 <div class="col-sm-5 col-sm-offset-1">
                     <div class="form-group">
-                        <label>Name *</label>
-                        <input type="text" name="name" class="form-control" required="required">
+                        <label for="c_name">Name *</label>
+                        <input type="text" name="name" id="c_name" class="form-control" required="required">
                     </div>
                     <div class="form-group">
-                        <label>Email *</label>
-                        <input type="email" name="email" class="form-control" required="required">
+                        <label for="c_email">Email *</label>
+                        <input type="email" name="email" id="c_email" class="form-control" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                     </div>
                     <div class="form-group">
-                        <label>Phone</label>
-                        <input type="number" class="form-control">
+                        <label for="c_number">Phone</label>
+                        <input type="tel" name="number" id="c_number" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>Company Name</label>
-                        <input type="text" class="form-control">
+                        <label for="c_cn">Company Name</label>
+                        <input type="text" name="company_name" id="c_cn" class="form-control">
                     </div>
                 </div>
                 <div class="col-sm-5">
                     <div class="form-group">
                         <label>Subject *</label>
-                        <input type="text" name="subject" class="form-control" required="required">
+                        <input type="text" name="subject" id="c_subject" class="form-control" required="required">
                     </div>
                     <div class="form-group">
                         <label>Message *</label>
-                        <textarea name="message" id="message" required="required" class="form-control"
+                        <textarea name="message" id="c_message" required="required" class="form-control"
                                   rows="8"></textarea>
                     </div>
                     <div class="form-group">
