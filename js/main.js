@@ -48,6 +48,9 @@ jQuery(function ($) {
         }, 500);
     });
 
+    // Adding rel for prettyPhoto
+    $('.preview').attr('rel', 'prettyPhoto');
+
     //Pretty Photo
     $("a[rel^='prettyPhoto']").prettyPhoto({
         social_tools: false

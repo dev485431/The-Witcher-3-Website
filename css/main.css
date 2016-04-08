@@ -2510,7 +2510,12 @@ shortcodes page css
     text-indent: 50px;
 }
 
-
+.iframe-google-map {
+    frameborder: 0;
+    scrolling: no;
+    marginheight: 0;
+    marginwidth: 0;
+}
 
 
 

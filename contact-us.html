@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-sm-5 text-center">
                     <div class="gmap">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        <iframe class="iframe-google-map"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.130929812966!2d22.547181966125873!3d51.23508352959133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722577729316bd9%3A0x442236391b743bc!2sPolitechnika+Lubelska%2C+20-618+Lublin!5e0!3m2!1sen!2spl!4v1459951181505"></iframe>
 
                     </div>
@@ -51,8 +51,9 @@
                 <div class="col-sm-7 map-content">
                     <ul class="row">
                         <li class="col-sm-6">
+                            <h5>Politechnika Lubelska</h5>
                             <address>
-                                <h5>Politechnika Lubelska</h5>
+
                                 <p>ul. Nadbystrzycka 38 D <br>
                                     20 – 618 Lublin</p>
                                 <p>Phone: 81 5384140 <br>
@@ -62,8 +63,9 @@
 
 
                         <li class="col-sm-6">
+                            <h5>Politechnika Lubelska</h5>
                             <address>
-                                <h5>Politechnika Lubelska</h5>
+
                                 <p>ul. Nadbystrzycka 38 D <br>
                                     20 – 618 Lublin</p>
                                 <p>Phone: 81 5384140 <br>
@@ -89,29 +91,34 @@
                     <div class="form-group">
                         <label for="c_name">Name *</label>
                         <div id="err_name"></div>
-                        <input type="text" name="name" id="c_name" class="form-control" data-toggle="tooltip" title="min 5 max 100 znakow" required="required">
+                        <input type="text" name="name" id="c_name" class="form-control" data-toggle="tooltip"
+                               title="min 5 max 100 znakow" required="required">
                     </div>
                     <div class="form-group">
                         <label for="c_email">Email *</label>
                         <div id="err_email"></div>
-                        <input type="text" name="email" id="c_email" class="form-control" data-toggle="tooltip" title="min 6 max 50 znakow"  required="required">
+                        <input type="text" name="email" id="c_email" class="form-control" data-toggle="tooltip"
+                               title="min 6 max 50 znakow" required="required">
                     </div>
                     <div class="form-group">
                         <label for="c_number">Phone *</label>
                         <div id="err_number"></div>
-                        <input type="tel" name="number" id="c_number" class="form-control" data-toggle="tooltip" title="min 9 max 12 znakow" required="required">
+                        <input type="tel" name="number" id="c_number" class="form-control" data-toggle="tooltip"
+                               title="min 9 max 12 znakow" required="required">
                     </div>
                     <div class="form-group">
                         <label for="c_company_name">Company Name *</label>
                         <div id="err_company_name"></div>
-                        <input type="text" name="company_name" id="c_company_name" class="form-control" data-toggle="tooltip" title="min 2 max 30 znakow" required="required">
+                        <input type="text" name="company_name" id="c_company_name" class="form-control"
+                               data-toggle="tooltip" title="min 2 max 30 znakow" required="required">
                     </div>
                 </div>
                 <div class="col-sm-5">
                     <div class="form-group">
                         <label>Subject *</label>
                         <div id="err_subject"></div>
-                        <input type="text" name="subject" id="c_subject" class="form-control" required="required" data-toggle="tooltip" title="min 15 max 100 znakow" required="required">
+                        <input type="text" name="subject" id="c_subject" class="form-control"
+                               data-toggle="tooltip" title="min 15 max 100 znakow" required="required">
                     </div>
                     <div class="form-group">
                         <label>Message *</label>
@@ -122,7 +129,8 @@
                     <div class="form-group">
                         <button type="submit" name="submit" class="btn btn-primary btn-lg">Submit
                             Message
-                        </button><br><br>
+                        </button>
+                        <br><br>
                         <p>* Required</p>
                     </div>
                 </div>
